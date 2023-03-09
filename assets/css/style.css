@@ -1,50 +1,53 @@
 @import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
+
+  body{
     font-family: 'Montserrat' , sans-serif;
-    background-color: #2b262e;
-    color: #ffffff;
-    
+    background-color:#ffffff;
+    color:black;
+    height: 100vh;
+    margin: auto;   
 }
 
+.container-fluid,
+.barra nav{
+  background-color: #0070e9;
+  background-image: linear-gradient(270deg, #0070e9 30%, #80D0C7 100%);
+  margin-top: 1%;
+  
+  position: fixed;
+  
+}
+
+
 .main{
-    margin: 0 auto;
+    padding-top: 10rem;
+    margin-bottom: 15rem;
+    margin-left: 20rem;
     width: 80vw;
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-}
-
-h1{
-    font-size: 4rem;
-}
-    
-
-   
-@-webkit-keyframes general {
-    0% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-    }
+    background-color: #ffffff;
   }
-  @keyframes general {
-    0% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 50% 0%;
-    }
+  .fondo{
+    width: 35rem;
+    position: relative;
+
   }
   
+ .imagen{
+  width: 400px;
+  clip-path: circle();
+  position: absolute;
+  left: 73.5em;
+  top: 15em;
+  
+  
+ }
 
+ /*nombre y animacion*/
 h1{
     font-size: 4rem;
   
@@ -53,7 +56,7 @@ h1{
     }
 
 span{
-    color:#5cb29f92;
+    color:#1c4de0d6;
 }
 
 @-webkit-keyframes h1 {
@@ -81,9 +84,10 @@ span{
     }
   }
 
+  /*boton descarga cv y leer mas */
   .download{
     padding: 10px 20px;
-    background-color:#5cb29f92;
+    background-color:#1c4de0d6;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -95,12 +99,14 @@ span{
     background-color: #ffffff;
     box-shadow: none;
   }
-  
 
 
+/*logo argpro*/
 .logoAp{
     filter: invert(1);
 }
+
+/*botones redes sociales y amimacion*/
 .buttons {
     justify-content: space-around;
     display: flex;
@@ -125,44 +131,138 @@ span{
     transform: scale(1.2);
 }
 
-.main img{
-    width: 450px;
-    border: 7px solid aqua;
-    height: 520px;
-
-    
-}
+ /* sobre mi css*/
 .sobre{
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(10,1 fr);
     width: 100vw;
-    align-items: center;
+    align-items: center;    
 }
+
 .sobre video{
     width: 100%;
     grid-column: 1/5;
+    height: 45rem;
+    width: 45rem;
 }
 
 .sobre-mi-info{
     grid-column: 5/10;
     padding: 3em;
     color: black;
+   
 }
+
 
 .sobre-mi-info h2{
     font-size: 2em;
     color:#2b262e;
     
-}
+  }
+  .sobre-mi-info p{
+      margin-bottom: 1em;
+  }
+  
+  /*subrrayado titulos*/
 
 .divider{
     height: 4px;
     width: 60px;
-    background-color: #5cb29f92;
+    background-color:#1c4de0d6;
     margin-bottom: 2em;
+    margin-top: 5px;
 }
 
-.sobre-mi-info p{
-    margin-bottom: 1em;
+
+
+/*Habilidades*/
+
+.habilidades,
+.educacion,
+.laboral,
+.proyectos{
+  padding-left: 5rem;
+  margin-bottom: 7rem;
 }
+
+.habilidades section{
+ position: static;
+  
+}
+
+.skills {
+
+  margin-top: 5rem;
+  margin-bottom : 0rem;
+}
+
+
+.progress-bar-animated{
+  background-color: #1c4de0d6;
+  
+}
+
+.progress{
+  margin: 30px;
+  margin-bottom: 4rem;
+  width: 50rem;
+background-color: rgba(169, 169, 169, 0.522);
+}
+
+
+
+
+/*Laboral*/
+
+.full-width{
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.white-text-square{
+  width:23%;
+  height:300px;
+  background-color:#fff;
+  background:#fff;
+  margin:10px;
+  display: inline-block;
+  box-shadow:0 0 15px rgba(0,0,0,.5);
+  overflow:hidden;
+  border-radius:5px;
+}
+
+.white-text-square h5{
+  background:#1c4de0d6;
+  margin:0;
+  padding:5% 0;
+  text-transform:uppercase;
+  color:white;
+  font-size:25px;
+}
+
+.white-text-square p{
+  margin:38px 0 20px 0;
+  font-size:18px;
+  line-height:20pt;
+  color: black;
+}
+
+.white-text-square span{
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(0, 0, 0);
+  margin-bottom: 300px;
+  text-align: center;
+  text-align: justify;
+}
+.length {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* PROYECTOS*/
+

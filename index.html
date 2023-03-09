@@ -13,14 +13,14 @@
     <title>Maqueta</title>
   </head>
   <body>
-    <header>
-      <div class="wrapper">
+    <header class="barra">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" target="_blank" href="https://argentinaprograma.inti.gob.ar/"><img class="logoAp" src="assets/img/logoArgPro.png" alt="logo-argentina-programa"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
           <!-- Button trigger modal -->
               <button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#loginModal" title="Iniciar Sesióm"><i class="fa-solid fa-lock"></i>
               </button>
@@ -29,10 +29,13 @@
             </div>
           </nav>
         </header>
+
+        
         <!-- seccion sobre mi  -->
+
         <main class="main">
           <div class="info-content">
-            <h1>Hola! fsoy <span>Martin</span> Trejo</h1>
+            <h1>Hola! soy <span>Martin</span> Trejo</h1>
             <h4>Aprendiz y estudiante de desarrollo web</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio quos vel aspernatur laborum voluptatum. Placeat quod corporis fugiat quo beatae vitae itaque, dolorem perferendis odio hic illum voluptatem provident.
@@ -40,7 +43,8 @@
            <a download href="#"><button class="download"> Descargar CV</button>
             </a>
           </div>
-                <img src="assets/img/Mi proyecto.png" alt="Martin" title="Foto Martin Trejo">
+                <img src="assets/img/fondo backgorund.png" class="fondo" alt="Martin" title="Foto Martin Trejo">
+                <img src="assets/img/img perfil.jpeg"class="imagen" alt="">
           </main>
         </div>
 
@@ -81,42 +85,151 @@
 
  
     <!-- seccion xp laboral -->
-   <section> 
-       <h2> Experiencia Laboral</h2> 
-       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus tempore. Ipsum temporibus asperiores sit quam est rem illum voluptate minima molestias quo odit, maiores architecto dicta! Adipisci, similique quod.
-       </p>
-    </section>
+
+   <div class="laboral"> 
+       <h2> Experiencia Laboral</h2>
+       <div class="divider"></div>
+
+       <div class="full-width">
+        <div class="white-text-square">
+          <h5>ManPower</h5>
+          <p><span> Años <br></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, architecto amet. Corporis vel perferendis voluptates alias ipsa maxime, architecto assumenda veritatis consequatur, quo ullam a animi reprehenderit deleniti dolorum accusamus!</p>
+        </div>
+      
+         <div class="white-text-square">
+          <h5>Cruz del Sur</h5>
+           <p><span> Años <br></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, architecto amet. Corporis vel perferendis voluptates alias ipsa maxime, architecto assumenda veritatis consequatur, quo ullam a animi reprehenderit deleniti dolorum accusamus!</p>
+        </div>
+        <div class="white-text-square">
+          <h5> PAE </h5>
+          <p><span> Años <br></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, architecto amet. Corporis vel perferendis voluptates alias ipsa maxime, architecto assumenda veritatis consequatur, quo ullam a animi reprehenderit deleniti dolorum accusamus!</p>
+        </div>
+        <div class="white-text-square">
+          <h5> Alimed SA </h5>
+          <p><span> Años <br></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, architecto amet. Corporis vel perferendis voluptates alias ipsa maxime, architecto assumenda veritatis consequatur, quo ullam a animi reprehenderit deleniti dolorum accusamus!</p>
+        </div>
+        <div class="white-text-square">
+          <h5> Familia Hilal </h5>
+          <p><span> Años <br></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, architecto amet. Corporis vel perferendis voluptates alias ipsa maxime, architecto assumenda veritatis consequatur, quo ullam a animi reprehenderit deleniti dolorum accusamus!</p>
+        </div>
+       </div>
+        <span class="length"></span>
+       
+   </div>
     
- 
+  
+
      <!-- seccion habilidades -->
-    <section>
+
+    <div class="habilidades">
         <h2> Habilidades </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quaerat, dolorem temporibus explicabo ex nemo inventore impedit excepturi aspernatur, unde consequuntur illo hic corporis porro exercitationem similique amet tenetur ducimus.
-        </p>
-      </section>
+        <div class="divider">
+        </div>
+
+        <h5 class="skills"> Html <i class="fa-brands fa-html5"></i></h5>
+        
+        <div class="progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
+        </div>
+
+        <h5 class="skills"> Java <i class="fa-brands fa-java"></i></h5>
+
+        <div class="progress" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%"> 45%</div>
+        </div>
+
+        <h5 class="skills"> Css <i class="fa-brands fa-css3-alt"></i></h5>
+
+        <div class="progress" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">50%</div>
+        </div>
+
+        <h5 class="skills"> JavaScript <i class="fa-brands fa-square-js"></i></h5>
+
+        <div class="progress" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%">40%</div>
+        </div>
+      </div>
+      
       
  
-  
+    
      <!-- seccion educacion -->
-   <section>
-        <h2> Educación </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tenetur temporibus dolorum dolor hic atque nam blanditiis repudiandae error sapiente natus, nostrum harum dicta eligendi repellendus iusto ratione consectetur vel?
-        </p>
-   </section>
+
+     <div class="educacion">
+         <h2> Educación </h2>
+         <div class="divider"></div>
+
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Egg</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Educación IT</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Argentina Programa</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+   </div>
 
   
     <!-- seccion proyectos -->
-    <section>
+
+    <div class="proyectos">
         <h2> Proyectos </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ullam odit ut quisquam architecto sit at amet quis. Voluptates ducimus vel tempora repellendus soluta! Omnis quisquam placeat nobis similique nemo!
-        </p>
-    </section>
+        <div class="divider"></div>
 
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/genshin pro.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Genshin Builds</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/proyecto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clash Deck Builder</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
 
+  </div>
+    
     <!-- Modal -->
 
     <!-- modal login -->
