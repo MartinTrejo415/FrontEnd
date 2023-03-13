@@ -14,15 +14,13 @@
   background-color: #0070e9;
   background-image: linear-gradient(270deg, #0070e9 30%, #80D0C7 100%);
   margin-top: 1%;
-  
-  position: fixed;
-  
+  position: fixed;  
 }
 
 
 .main{
     padding-top: 10rem;
-    margin-bottom: 15rem;
+    margin-bottom: 13rem;
     margin-left: 20rem;
     width: 80vw;
     height: 80vh;
@@ -31,18 +29,13 @@
     align-items: center;
     background-color: #ffffff;
   }
-  .fondo{
-    width: 35rem;
-    position: relative;
-
-  }
   
  .imagen{
-  width: 400px;
+  width: 600px;
   clip-path: circle();
   position: absolute;
   left: 73.5em;
-  top: 15em;
+  top: 10em;
   
   
  }
@@ -107,51 +100,50 @@ span{
 }
 
 /*botones redes sociales y amimacion*/
-.buttons {
-    justify-content: space-around;
-    display: flex;
-    min-height: 100vh;
-}
-.buttons a{
+.button {
+   display: flex;
+   justify-content: center;
+   margin-top: 10em;
+  }
+.button a{
     text-decoration: none;
     font-size: 30px;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, .5);
+    height: 50px;
+    width: 50px;
+    line-height: 52.4px;
+    text-align: center ;
+    background-color: rgba(21, 39, 140, 0.5);
     border-radius: 50%;
     color: #ffffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s ease-in-out;
+    margin: 5px;
     
    
 }
-.buttons a:hover{
+.button a:hover{
     transform: scale(1.2);
 }
 
  /* sobre mi css*/
 .sobre{
-    background-color: #ffffff;
     display: grid;
-    grid-template-columns: repeat(10,1 fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ffffff;
     width: 100vw;
     align-items: center;    
 }
 
-.sobre video{
-    width: 100%;
+.sobre img{
     grid-column: 1/5;
-    height: 45rem;
+    height: 60rem;
     width: 45rem;
+    
 }
 
 .sobre-mi-info{
-    grid-column: 5/10;
-    padding: 3em;
-    color: black;
-   
+ grid-column: 5/10;
+ padding: 4em;
 }
 
 
